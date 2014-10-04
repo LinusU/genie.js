@@ -1,0 +1,16 @@
+{
+  "name": "genie-utils",
+  "version": "0.1.0",
+  "dependencies": {
+    "jdataview": "^2.4.6",
+    "pako": "^0.2.5"
+  },
+  "devDependencies": {
+    "browserify": "^6.0.2",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "bundle": "browserify index.js -s Genie -o genie.js"
+  }
+}
