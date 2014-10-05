@@ -2,6 +2,7 @@
   "name": "genie-utils",
   "version": "0.1.0",
   "dependencies": {
+    "canvas-browserify": "^1.1.1",
     "jdataview": "^2.4.6",
     "pako": "^0.2.5"
   },
