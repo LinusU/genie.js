@@ -1,6 +1,4 @@
 
-exports.Unit = require('./lib/unit');
-
 exports.Map = require('./lib/map');
 exports.Scenario = require('./lib/scenario');
 
