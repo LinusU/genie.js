@@ -12,6 +12,8 @@ describe('DRS', function () {
       assert.ifError(err);
       assert.ok(drs);
 
+      assert.equal(drs.files[0].type, 'SLP');
+
       var slp = new SLP(drs.getFile(0));
 
       assert.ok(slp);
